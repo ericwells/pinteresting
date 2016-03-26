@@ -1,18 +1,21 @@
-@import url(https://fonts.googleapis.com/css?family=Chewy);
-
+@import url(https://fonts.googleapis.com/css?family=Chewy|Open+Sans:400,400italic,700,700italic);
 
 $body-bg:  #2980b9;
-$font-famil-san-serif: 'Chewy', Arial;
-$navbar-height: 45px;
-$navbar-bg:  #2980b9;
-$navbar-inverse-bg:  #bdc3c7;
-$navbar-inverse-link-color:  #34495e;
-$jumbotron-bg:  #bdc3c7;
-$brand-primary:  #8e44ad;
-$navbar-default-brand-color: #8e44ad;
-$navbar-default-brand-hover-color: #2c3e50;
+$font-family-sans-serif: Open_Sans, Arial;
+$navbar-height: 55px;
+$navbar-bg:  #2980b9; //aqua
+$navbar-inverse-bg:  #bdc3c7; //silver
+$navbar-inverse-link-color:  #34495e; //dark grey
+$jumbotron-bg:  #bdc3c7; //silver
+$brand-primary:  #8e44ad; //purple
+$navbar-default-brand-color: #8e44ad; //purple
+$navbar-default-brand-hover-color: #2c3e50; //cement
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
 
 .navbar-brand {
 	font-weight: bold;
