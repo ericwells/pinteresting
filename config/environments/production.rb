@@ -76,4 +76,5 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+  config.action_mailer.default_url_options = { host: 'https://powerful-sea-85808.herokuapp.com' } #required for Heroku.  NOTE TO SET THIS TO YOUR ACTUAL HOST
 end
