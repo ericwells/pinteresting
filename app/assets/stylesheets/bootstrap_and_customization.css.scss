@@ -12,7 +12,9 @@ $navbar-default-brand-color: #8e44ad; //purple
 $navbar-default-brand-hover-color: #2c3e50; //cement
 //$state-info-bg:   #8e44ad; //purple
 
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 .center {
 	text-align: center;
